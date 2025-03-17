@@ -30,7 +30,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 110px 100px;
+    padding: 100px 150px;
 }
 
 .logo {
@@ -270,10 +270,11 @@ ul.wedding-content {
 }
 
 
-@media (max-width: 1000px) {
+@media (min-width: 375px) {
     .wedding-content li {
         flex-basis: 100%;
         margin-bottom: 65px;
+        text-align: center;
     }
     .wedding-content li:last-child {
         margin-bottom: 0;
