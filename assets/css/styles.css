@@ -41,7 +41,7 @@ section {
 
 @media (max-width: 600px) {
     section {
-        padding: 125px 30px;
+        padding: 185px 30px;
     }
 }
 
@@ -168,7 +168,7 @@ h5 {
 }
 
 .couple-area .section-title {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 ul.couple-content {
@@ -209,7 +209,7 @@ ul.couple-content {
 
 .section-title {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 5%;
     color: #333;
     font-weight: 400;
@@ -221,7 +221,7 @@ ul.couple-content {
 
 @media (max-width: 1000px) {
     .section-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .couple-left,
     .couple-right {
@@ -247,6 +247,7 @@ ul.wedding-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .wedding-content {
@@ -264,7 +265,7 @@ ul.wedding-content {
 }
 
 .wedding-content li p {
-    margin: 0;
+    font-size: 1.4rem;
     
 }
 
