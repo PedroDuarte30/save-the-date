@@ -6,15 +6,19 @@ html {
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    background-color: #fffaf5;
+    background-color: #FFFDD0;
     color: #4a4a4a;
     margin: 0;
     padding: 0;
     font-size: 1.6rem;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 }
 .container {
     max-width: 700px;
@@ -24,31 +28,34 @@ body {
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 3em;
-    color: #b76e79;
+    color: #344D0E;
 }
 .date {
     font-size: 1.5em;
     margin: 20px 0;
-    color: #8a6d66;
+    color: #344D0E;
 }
-.rsvp-button {
-    background-color: #b76e79;
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 25px;
-    display: inline-block;
-    margin: 20px 0;
-    transition: 0.3s;
-}
-.rsvp-button:hover {
-    background-color: #945961;
-}
+
 .countdown {
     font-size: 1.2em;
     margin-top: 20px;
-    color: #8a6d66;
+    color: #344D0E;
+}
+
+/*Seção convite*/
+.invite {
+    margin-top: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: default;
+    line-height: 2;
+
+}
+.invite:hover{
+    transform: translateY(-5px);
 }
 
 /*Seção Historia*/
@@ -91,10 +98,31 @@ h1 {
     transform: scale(1.05);
 }
 
+/*Seção confirmação*/
+.timeline {
+    margin-top: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: default;
+    line-height: 2; 
 
-/*Seção Presents*/
+}
 
-.presents  {
+.timeline:hover {
+    transform: translateY(-5px);
+}
+
+.timeline .event i {
+    color: #344D0E;
+    font-size: 50px;
+}
+
+/*Seção confirmação*/
+
+.confirmation  {
     margin-top: 40px;
     padding: 20px;
     background: #fff;
@@ -105,6 +133,9 @@ h1 {
     line-height: 2;
 }
 
+.confirmation:hover{
+    transform: translateY(-5px);
+}
 .lightbox {
     display: none;
     position: fixed;
@@ -125,5 +156,21 @@ h1 {
 
 .lightbox.active {
     display: flex;
+}
+
+.rsvp-button {
+    background-color: #99BC85;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+.rsvp-button:hover {
+    background-color: #76993D;
 }
 
