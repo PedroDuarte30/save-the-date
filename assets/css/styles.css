@@ -9,12 +9,11 @@ html {
 body {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    background-color: #FFFDD0;
+    background-color: #ddffc8;
     color: #4a4a4a;
     margin: 0;
     padding: 0;
     font-size: 1.6rem;
-    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -40,10 +39,22 @@ h1 {
     font-size: 1.2em;
     margin-top: 20px;
     color: #344D0E;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+    
+}
+
+.countdown:hover{
+    transform: translateY(-5px);
 }
 
 /*Seção convite*/
 .invite {
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
     padding: 20px;
     background: #fff;
