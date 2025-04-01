@@ -213,11 +213,3 @@ h1 {
 .rsvp-button:hover {
     background-color: #76993D;
 }
-
-@media(max-width:480px) {
-    .invite{
-        width: 95%;
-        padding: 15px;
-    }
-}
-
