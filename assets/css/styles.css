@@ -75,9 +75,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 90%;
-    max-width: 600px;
+    height: 50vh;    
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: #080808;
