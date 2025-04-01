@@ -52,25 +52,49 @@ h1 {
 }
 
 /*Seção convite*/
+.intro {
+    font-size: 1.8rem;
+}
+.invite p strong {
+    font-size: 2rem;
+}
+.data {
+    font-size: 6rem;
+    font-weight: medium;
+    color: #344D0E;
+    margin: 20px 0;
+}
+.mensagem {
+    font-size: 1.8rem;
+    text-align:center;
+    line-height: 1.5;
+}
 .invite {
+    border: 2px solid #344D0E;
+    background: url('../images/background.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #080808;
     padding: 20px;
-    background: #fff;
+    margin-top: 40px;
+    opacity: 0.8;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: transform 0.3s ease-in-out;
-    cursor: default;
-    line-height: 2;
-
 }
+
+
 .invite:hover{
     transform: translateY(-5px);
 }
 
 /*Seção Historia*/
 .history  {
+    border: 2px solid #344D0E;
     margin-top: 40px;
     padding: 20px;
     background: #fff;
@@ -97,7 +121,7 @@ h1 {
 }
 
 .gallery img {
-    width: 500px;
+    width: 350px;
     height: auto;
     border-radius: 5px;
     cursor: pointer;
@@ -111,6 +135,7 @@ h1 {
 
 /*Seção confirmação*/
 .timeline {
+    border: 2px solid #344D0E;
     margin-top: 40px;
     padding: 20px;
     background: #fff;
@@ -138,6 +163,7 @@ h1 {
 /*Seção confirmação*/
 
 .confirmation  {
+    border: 2px solid #344D0E;
     margin-top: 40px;
     padding: 20px;
     background: #fff;
