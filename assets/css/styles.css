@@ -53,19 +53,19 @@ h1 {
 
 /*Seção convite*/
 .intro {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .invite p strong {
     font-size: 1.6rem;
 }
 .data {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: medium;
     color: #344D0E;
     margin: 20px 0;
 }
 .mensagem {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: center;
     line-height: 1.5;
 }
@@ -75,7 +75,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;    
+    height: 50vh; 
+    width: 100%;   
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: #080808;
