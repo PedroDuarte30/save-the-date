@@ -66,10 +66,10 @@ h1 {
 }
 .mensagem {
     font-size: 1.6rem;
-    text-align: center;
     line-height: 1.5;
 }
 .invite {
+    position: relative;
     border: 2px solid #344D0E;
     background: url('../images/background.jpg') no-repeat center center/cover;
     display: flex;
@@ -81,11 +81,12 @@ h1 {
     font-family: 'Playfair Display', serif;
     color: #080808;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: transform 0.3s ease-in-out;
 }
+
 
 
 .invite:hover{
