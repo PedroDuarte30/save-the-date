@@ -1,6 +1,8 @@
+
 function calcularDias() {
     // Data do casamento: 3 de julho de 2025
-    const dataCasamento = new Date(2025, 6, 3); // Mês 6 é julho (pois começa do 0)
+    const dataCasamen
+        to = new Date(2025, 6, 3); // Mês 6 é julho (pois começa do 0)
     
     // Data de hoje (zerando hora)
     const hoje = new Date();
@@ -10,7 +12,7 @@ function calcularDias() {
     const diferencaMs = dataCasamento - hoje;
     
     // Se a diferença for negativa, significa que o casamento já aconteceu
-    if (diferencaMs < 1) {
+    if (diferencaMs < -1) {
         document.getElementById('contador').textContent = "Hoje é o grande dia! 🎉";
     } else {
         // Convertendo a diferença em milissegundos para dias
