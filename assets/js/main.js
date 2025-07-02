@@ -10,7 +10,7 @@ function calcularDias() {
     const diferencaMs = dataCasamento - hoje;
     
     // Se a diferença for negativa, significa que o casamento já aconteceu
-    if (diferencaMs < 0) {
+    if (diferencaMs < 1) {
         document.getElementById('contador').textContent = "Hoje é o grande dia! 🎉";
     } else {
         // Convertendo a diferença em milissegundos para dias
