@@ -1,8 +1,6 @@
-
 function calcularDias() {
     // Data do casamento: 3 de julho de 2025
-    const dataCasamen
-        to = new Date(2025, 6, 3); // Mês 6 é julho (pois começa do 0)
+    const dataCasamento = new Date(2025, 6, 3); // Mês 6 é julho (pois começa do 0)
     
     // Data de hoje (zerando hora)
     const hoje = new Date();
