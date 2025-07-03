@@ -12,14 +12,14 @@ function calcularDias() {
     const diferencaMs = dataCasamento - hoje;
     
     // Se a diferença for negativa, significa que o casamento já aconteceu
-    if (diferencaMs < -2) {
+    if (diferencaMs < 1) {
         document.getElementById('contador').textContent = "Hoje é o grande dia! 🎉";
     } else {
         // Convertendo a diferença em milissegundos para dias
         const diasRestantes = Math.floor(diferencaMs / (1000 * 60 * 60 * 24));
         
         // Exibindo o número de dias restantes
-        document.getElementById('contador').textContent = diasRestantes + " dias";
+        document.getElementById('contador').textContent = diasRestantes;
     }
 }
 
